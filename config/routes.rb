@@ -1,4 +1,8 @@
 CapistranoLearn::Application.routes.draw do
+  root :to => 'things#index'
+  resources :things
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

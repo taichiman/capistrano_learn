@@ -7,7 +7,10 @@ gem 'rails', '3.2.15'
 
 gem 'sqlite3'
 
-
+group :development do
+  gem 'capistrano', '~> 3.0.1'
+  # gem 'rvm-capistrano'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -31,8 +34,6 @@ gem 'jquery-rails'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Deploy with Capistrano
-# gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
