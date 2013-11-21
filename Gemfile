@@ -10,7 +10,7 @@ gem 'sqlite3'
 group :development do
   # gem 'capistrano', '~> 3.0.1'
   gem 'capistrano', '2.14.2'
-  # gem 'rvm-capistrano'
+  gem 'rvm-capistrano'
 end
 # Gems used only for assets and not required
 # in production environments by default.
